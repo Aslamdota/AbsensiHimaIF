@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "absensi-sekolah-qr-code"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "absensi-sekolah-qr-code-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
