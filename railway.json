@@ -1,3 +1,8 @@
 {
-  "startCommand": "php -S 0.0.0.0:$PORT -t public"
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "start": {
+    "cmd": "php -S 0.0.0.0:$PORT -t public"
+  }
 }
