@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "php": "^7.4 || ^8.0",
+        "php": "^7.4 || ^8.2",
         "codeigniter4/framework": "^4.0",
         "myth/auth": "dev-develop",
         "endroid/qr-code": "^4.8"
